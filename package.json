@@ -1,0 +1,18 @@
+{
+  "name": "threejs-boilerplate",
+  "version": "1.0.0",
+  "description": "Some light weight boilerplate for getting started with Three.js",
+  "scripts": {
+    "build": "parcel build index.html --dist-dir dist",
+    "serve": "parcel serve index.html --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "three": "^0.128.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0-beta.2"
+  }
+}
